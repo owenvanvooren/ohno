@@ -49,12 +49,18 @@ header {
 }
 
 .logo {
-    font-family: var(--heading-font);
-    font-size: 1.5rem;
-    color: var(--accent);
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    transition: font-size 0.3s ease;
+    transition: transform 0.3s ease;
 }
+
+.logo img {
+    height: 2rem;
+    width: auto;
+    display: block;
+}
+
 
 nav {}
 
@@ -215,12 +221,12 @@ footer {
         background: #f5f5f5;
     }
 
-    .logo {
-        font-size: 1.5rem;
+    .logo img {
+        height: 1.5rem;
     }
 
-    header.compact .logo {
-        font-size: 1.2rem;
+    header.compact .logo img {
+        height: 1.2rem;
     }
 
     nav {}

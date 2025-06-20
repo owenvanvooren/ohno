@@ -15,7 +15,6 @@
   <url>
     <loc>https://ohno.owen.uno/about</loc>
     <lastmod>2025-05-30</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
@@ -31,6 +30,11 @@
   <url>
     <loc>https://ohno.owen.uno/articles/glass-is-glass</loc>
     <lastmod>2025-06-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://ohno.owen.uno/articles/houston-we-have-a-problem</loc>
+    <lastmod>2025-06-20</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
